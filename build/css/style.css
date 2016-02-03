@@ -1,0 +1,14 @@
+body {
+  background-color: #ccc; }
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px; }
+  .product h2 {
+    margin: 0; }
+
+#form-checkout {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
