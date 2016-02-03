@@ -1,5 +1,19 @@
 @import 'variables';
 
 body {
-  background-color: #ff0;
+  background-color: #ccc;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+#form-checkout {
+  display: none;
 }
