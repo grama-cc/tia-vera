@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Doces da Tia Vera</title>
-    <link rel="stylesheet" type="text/css" href="build/css/style.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doces da Tia Vera</title>
+  <link rel="stylesheet" type="text/css" href="build/css/style.css"/>
 </head>
 
 <body>
 
-    <h1>Doces da Tia Vera</h1>
-    <h2>Hmmmmm</h2>
+  <h1>Doces da Tia Vera</h1>
+
+  <div class="product" code="F33D6D45DEDE0E37748D3F913408D18F">
+    <h2>Brownie</h2>
+    <div class="price">R$ 0,01</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="product" code="50F3353EFAFA72B33420FFBDE4C7BF7B">
+    <h2>Bolo</h2>
+    <div class="price">R$ 0,02</div>
+    <button>Comprar</button>
+  </div>
+
+  <form id="form-checkout" action="https://pagseguro.uol.com.br/checkout/v2/cart.html" method="post">
+    <input type="hidden" name="itemCode" value="" />
+  </form>
+
+  <script type="text/javascript" src="build/js/libs.js"></script>
+  <script type="text/javascript" src="build/js/main.js"></script>
+  <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
 
 </body>
 </html>
