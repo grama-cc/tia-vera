@@ -40,7 +40,7 @@ gulp.task('js', function () {
     .pipe(gulp.dest('./build/js'));
 
   gulp.src([
-      './node_modules/jquery/dist/jquery.js',
+      './node_modules/jquery/dist/jquery.min.js',
     ])
     .pipe(gulpif(!isProduction, sourcemaps.init()))
     .pipe(concat('libs.js'))
