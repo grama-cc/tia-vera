@@ -9,7 +9,21 @@
 
 <body>
 
-  <h1>Doces da Tia Vera</h1>
+  <header>
+    <h1>[ &nbsp; &nbsp; &nbsp; ]</h1>
+    <nav>
+      <a href="#">contato</a>
+      <a href="#">fb</a>
+    </nav>
+  </header>
+
+  <div class="highlight">
+    Os Clássicos
+  </div>
+
+  <div class="promo-frete">
+    Frete grátis
+  </div>
 
   <div 
       class="product"
@@ -22,7 +36,7 @@
     <h2>Brownie</h2>
     <div>R$ 0,01/unidade</div>
     <div>
-      Total: R$ <span price>0,10</span>
+      Total: R$ <span price>0,01</span>
     </div>
     <div>
       <button remove>-</button>
@@ -43,7 +57,7 @@
     <h2>Bolo</h2>
     <div>R$ 0,02/unidade</div>
     <div>
-      Total: R$ <span price>0,20</span>
+      Total: R$ <span price>0,02</span>
     </div>
     <div>
       <button remove>-</button>
@@ -52,6 +66,12 @@
     </div>
     <button buy>Comprar</button>
   </div>
+
+  <footer>
+    <p class="title">Ô, lá em casa!</p>
+    <p>Fale com a gente para fazer encomendas, saber mais ou para jogar conversa fora.</p>
+    <p>telefone / email</p>
+  </footer>
 
   <form id="form-checkout" action="https://pagseguro.uol.com.br/checkout/v2/cart.html" method="post">
     <input type="hidden" name="itemCode" value="" />
