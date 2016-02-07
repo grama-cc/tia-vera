@@ -1,14 +1,1 @@
-body {
-  background-color: #ccc; }
-
-.product {
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px; }
-  .product h2 {
-    margin: 0; }
-
-#form-checkout {
-  display: none; }
-
-/*# sourceMappingURL=style.css.map */
+body,header h1{margin:0}body{font-family:sans-serif}a{color:inherit;text-decoration:none}header{background-color:#e2e2e2;padding:20px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-ms-flex-align:center;align-items:center;font-size:14px}header a{margin-left:20px}.highlight{background-color:#ccc;font-size:30px;height:200px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.promo-frete{background-color:#000;color:#fff;text-align:center;text-transform:uppercase;font-size:20px;padding:10px}.product:before,footer{background-color:#e2e2e2}.product{padding:0 20px;margin-top:20px}.product h2{margin:0}.product:before{content:'';display:block;width:100%;height:200px}footer{text-align:center;padding:20px;margin-top:20px}footer .title{font-size:30px}#form-checkout{display:none}
