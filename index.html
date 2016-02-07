@@ -9,19 +9,69 @@
 
 <body>
 
-  <h1>Doces da Tia Vera</h1>
+  <header>
+    <h1>[ &nbsp; &nbsp; &nbsp; ]</h1>
+    <nav>
+      <a href="#">contato</a>
+      <a href="#">fb</a>
+    </nav>
+  </header>
 
-  <div class="product" code="F33D6D45DEDE0E37748D3F913408D18F">
+  <div class="highlight">
+    Os Clássicos
+  </div>
+
+  <div class="promo-frete">
+    Frete grátis
+  </div>
+
+  <div 
+      class="product"
+      price="0.01"
+      code="
+        F33D6D45DEDE0E37748D3F913408D18F,
+        E8E576400A0AB07114D1CF94F6465758,
+        2D4E8454C9C9F418840E3FB901EFD6F3
+      ">
     <h2>Brownie</h2>
-    <div class="price">R$ 0,01</div>
-    <button>Comprar</button>
+    <div>R$ 0,01/unidade</div>
+    <div>
+      Total: R$ <span price>0,01</span>
+    </div>
+    <div>
+      <button remove>-</button>
+      <span quantity>1</span>
+      <button add>+</button>
+    </div>
+    <button buy>Comprar</button>
   </div>
 
-  <div class="product" code="50F3353EFAFA72B33420FFBDE4C7BF7B">
+  <div 
+      class="product" 
+      price="0.02"
+      code="
+        50F3353EFAFA72B33420FFBDE4C7BF7B,
+        5D9F5B7E2F2FCB4114D4FFAF5E565378,
+        232E692DD2D22ACFF44F0F911253AB9B
+      ">
     <h2>Bolo</h2>
-    <div class="price">R$ 0,02</div>
-    <button>Comprar</button>
+    <div>R$ 0,02/unidade</div>
+    <div>
+      Total: R$ <span price>0,02</span>
+    </div>
+    <div>
+      <button remove>-</button>
+      <span quantity>1</span>
+      <button add>+</button>
+    </div>
+    <button buy>Comprar</button>
   </div>
+
+  <footer>
+    <p class="title">Ô, lá em casa!</p>
+    <p>Fale com a gente para fazer encomendas, saber mais ou para jogar conversa fora.</p>
+    <p>telefone / email</p>
+  </footer>
 
   <form id="form-checkout" action="https://pagseguro.uol.com.br/checkout/v2/cart.html" method="post">
     <input type="hidden" name="itemCode" value="" />
