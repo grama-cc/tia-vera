@@ -29,6 +29,7 @@ gulp.task('sass', function () {
 
 gulp.task('js', function () {
   gulp.src([
+      './js/components/**/*.js',
       './js/main.js'
     ])
     .pipe(gulpif(!isProduction, sourcemaps.init()))
